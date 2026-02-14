@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Daniel Nylander
+# This file is distributed under the same license as the desktop-editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Nylander <po@danielnylander.se>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop-editor 0.1.0\n"
+"Report-Msgid-Bugs-To: daniel@danielnylander.se\n"
+"POT-Creation-Date: 2026-02-14 09:48+0100\n"
+"PO-Revision-Date: 2026-02-14 09:50+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304760/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/desktop_editor/app.py:80 src/desktop_editor/window.py:24
+#: src/desktop_editor/window.py:332 src/desktop_editor/window.py:338
+#: src/desktop_editor/window.py:409
+msgid "Desktop File Editor"
+msgstr "Redigera skrivbordsfiler"
+
+#: src/desktop_editor/desktop_file.py:105
+msgid "No file path specified"
+msgstr "Ingen filsökväg angiven"
+
+#: src/desktop_editor/desktop_file.py:157
+#, python-format
+msgid "Missing required key: %s"
+msgstr "Saknar nödvändig nyckel: %s"
+
+#: src/desktop_editor/desktop_file.py:162
+#, python-format
+msgid "Invalid Type: %s"
+msgstr "Ogiltig typ: %s"
+
+#: src/desktop_editor/desktop_file.py:167
+msgid "Application type should have an Exec key"
+msgstr "Programtypen bör ha en Exec-nyckel"
+
+#: src/desktop_editor/desktop_file.py:172
+msgid "Link type should have a URL key"
+msgstr "Länktypen ska ha en URL-nyckel"
+
+#: src/desktop_editor/desktop_file.py:176
+msgid "No icon specified"
+msgstr "Ingen ikon angiven"
+
+#: src/desktop_editor/desktop_file.py:180
+msgid "No categories specified"
+msgstr "Inga kategorier angivna"
+
+#: src/desktop_editor/desktop_file.py:185
+#, python-format
+msgid "Non-standard key: %s"
+msgstr "Icke-standardnyckel: %s"
+
+#: src/desktop_editor/window.py:40
+msgid "New"
+msgstr "Ny"
+
+#: src/desktop_editor/window.py:41
+msgid "Open…"
+msgstr "Öppna..."
+
+#: src/desktop_editor/window.py:42 src/desktop_editor/window.py:50
+msgid "Save"
+msgstr "Spara"
+
+#: src/desktop_editor/window.py:43
+msgid "Save As…"
+msgstr "Spara som..."
+
+#: src/desktop_editor/window.py:44
+msgid "About"
+msgstr "Om"
+
+#: src/desktop_editor/window.py:45
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/desktop_editor/window.py:65
+msgid "Applications"
+msgstr "Program"
+
+#: src/desktop_editor/window.py:90
+msgid "Editor"
+msgstr "Redigerare"
+
+#: src/desktop_editor/window.py:96
+msgid "Translations"
+msgstr "Översättningar"
+
+#: src/desktop_editor/window.py:102
+msgid "Validation"
+msgstr "Validering"
+
+#: src/desktop_editor/window.py:108
+msgid "Preview"
+msgstr "Förhandsvisa"
+
+#: src/desktop_editor/window.py:130
+msgid "Basic Properties"
+msgstr "Grundläggande egenskaper"
+
+#: src/desktop_editor/window.py:132
+msgid "Name"
+msgstr "Namn"
+
+#: src/desktop_editor/window.py:135
+msgid "Generic Name"
+msgstr "Allmänt namn"
+
+#: src/desktop_editor/window.py:138
+msgid "Comment"
+msgstr "Kommentar"
+
+#: src/desktop_editor/window.py:141
+msgid "Exec"
+msgstr "Exec"
+
+#: src/desktop_editor/window.py:144
+msgid "Icon"
+msgstr "Ikon"
+
+#: src/desktop_editor/window.py:147
+msgid "Working Directory"
+msgstr "Arbetskatalog"
+
+#: src/desktop_editor/window.py:153
+msgid "Options"
+msgstr "Alternativ"
+
+#: src/desktop_editor/window.py:155
+msgid "Type"
+msgstr "Typ"
+
+#: src/desktop_editor/window.py:160
+msgid "Run in Terminal"
+msgstr "Kör i terminal"
+
+#: src/desktop_editor/window.py:163
+msgid "No Display"
+msgstr "Ingen visning"
+
+#: src/desktop_editor/window.py:166
+msgid "Startup Notification"
+msgstr "Uppstartsavisering"
+
+#: src/desktop_editor/window.py:172
+msgid "Categories"
+msgstr "Kategorier"
+
+#: src/desktop_editor/window.py:173
+msgid "Categories (semicolon-separated)"
+msgstr "Kategorier (avgränsade med semikolon)"
+
+#: src/desktop_editor/window.py:194
+msgid "Additional Fields"
+msgstr "Ytterligare fält"
+
+#: src/desktop_editor/window.py:195
+msgid "MIME Types"
+msgstr "MIME-typer"
+
+#: src/desktop_editor/window.py:197
+msgid "Keywords"
+msgstr "Nyckelord"
+
+#: src/desktop_editor/window.py:199
+msgid "StartupWMClass"
+msgstr "StartupWMClass"
+
+#: src/desktop_editor/window.py:201
+msgid "URL"
+msgstr "URL"
+
+#: src/desktop_editor/window.py:214
+msgid "Add Translation"
+msgstr "Lägg till översättning"
+
+#: src/desktop_editor/window.py:216
+msgid "Locale code (e.g. sv, de, fr)"
+msgstr "Språkkod (t.ex. sv, de, fr)"
+
+#: src/desktop_editor/window.py:219
+msgid "Add"
+msgstr "Lägg till"
+
+#: src/desktop_editor/window.py:237
+msgid "Run Validation"
+msgstr "Kör validering"
+
+#: src/desktop_editor/window.py:269
+msgid "Application Name"
+msgstr "Programnamn"
+
+#: src/desktop_editor/window.py:275
+msgid "Description"
+msgstr "Beskrivning"
+
+#: src/desktop_editor/window.py:293
+msgid "Refresh Preview"
+msgstr "Uppdatera förhandsvisning"
+
+#: src/desktop_editor/window.py:332
+msgid "New File"
+msgstr "Ny fil"
+
+#: src/desktop_editor/window.py:342
+msgid "Error Opening File"
+msgstr "Fel vid öppning av fil"
+
+#: src/desktop_editor/window.py:345 src/desktop_editor/window.py:369
+#: src/desktop_editor/window.py:378
+msgid "OK"
+msgstr "OK"
+
+#: src/desktop_editor/window.py:355 src/desktop_editor/window.py:357
+#: src/desktop_editor/window.py:410
+msgid "File saved"
+msgstr "Filen sparades"
+
+#: src/desktop_editor/window.py:359
+msgid "Error Saving File"
+msgstr "Fel vid sparande av fil"
+
+#: src/desktop_editor/window.py:382
+msgid "Open .desktop File"
+msgstr "Öppna .desktop-fil"
+
+#: src/desktop_editor/window.py:384
+msgid "Desktop Files"
+msgstr "Skrivbordsfiler"
+
+#: src/desktop_editor/window.py:400
+msgid "Save .desktop File"
+msgstr "Spara .desktop-fil"
+
+#: src/desktop_editor/window.py:523
+#, python-format
+msgid "Remove locale %s"
+msgstr "Ta bort locale %s"
+
+#: src/desktop_editor/window.py:587
+msgid "✓ No issues found"
+msgstr "✓ Inga problem hittades"
+
+#: src/desktop_editor/window.py:604 src/desktop_editor/window.py:608
+msgid "Unnamed"
+msgstr "Namnlös"
+
+#: src/desktop_editor/window.py:617
+msgid "(unsaved)"
+msgstr "(osparad)"
+
+#: desktop file
+msgid "Visual editor for .desktop files"
+msgstr "Visuell redigerare för .desktop-filer"
+
+#: desktop file
+msgid "desktop;editor;freedesktop;"
+msgstr "skrivbord;redigerare;freedesktop;"
