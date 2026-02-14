@@ -78,7 +78,7 @@ class DesktopEditorApp(Adw.Application):
         about = Adw.AboutWindow(
             transient_for=self.props.active_window,
             application_name=_("Desktop File Editor"),
-            application_icon="text-x-desktop",
+            application_icon="desktop-editor",
             developer_name="Daniel Nylander",
             version="0.1.0",
             developers=["Daniel Nylander <daniel@danielnylander.se>"],
@@ -86,6 +86,8 @@ class DesktopEditorApp(Adw.Application):
             license_type=Gtk.License.GPL_3_0,
             website="https://github.com/yeager/desktop-editor",
             issue_url="https://github.com/yeager/desktop-editor/issues",
+            comments=_("A localization tool by Daniel Nylander"),
+            translator_credits=_("Translate this app: https://app.transifex.com/linguaedit/desktop-editor/"),
         )
         about.present()
 

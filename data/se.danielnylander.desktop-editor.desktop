@@ -2,7 +2,7 @@
 Name=Desktop File Editor
 Comment=Visual editor for .desktop files
 Exec=desktop-editor
-Icon=text-editor
+Icon=desktop-editor
 Terminal=false
 Type=Application
 Categories=Development;GTK;
