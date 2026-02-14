@@ -87,7 +87,7 @@ class DesktopEditorApp(Adw.Application):
             website="https://github.com/yeager/desktop-editor",
             issue_url="https://github.com/yeager/desktop-editor/issues",
             comments=_("A localization tool by Daniel Nylander"),
-            translator_credits=_("Translate this app: https://app.transifex.com/linguaedit/desktop-editor/"),
+            translator_credits=_("Translate this app: https://app.transifex.com/danielnylander/desktop-editor/"),
         )
         about.present()
 

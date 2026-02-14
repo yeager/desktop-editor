@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[o:linguaedit:p:desktop-editor:r:desktop-editor-pot]
+[o:danielnylander:p:desktop-editor:r:desktop-editor-pot]
 file_filter = po/<lang>.po
 source_file = po/desktop-editor.pot
 source_lang = en
