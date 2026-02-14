@@ -1,0 +1,11 @@
+Package: desktop-editor
+Version: 0.1.0-1
+Section: devel
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Homepage: https://github.com/yeager/desktop-editor
+Description: Visual editor for .desktop files
+ A GTK4/Adwaita application for editing .desktop files with
+ preview, validation, and translation management.

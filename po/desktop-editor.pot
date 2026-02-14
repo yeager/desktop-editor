@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Daniel Nylander
+# This file is distributed under the same license as the desktop-editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop-editor 0.1.0\n"
+"Report-Msgid-Bugs-To: daniel@danielnylander.se\n"
+"POT-Creation-Date: 2026-02-14 09:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/desktop_editor/app.py:80 src/desktop_editor/window.py:24
+#: src/desktop_editor/window.py:332 src/desktop_editor/window.py:338
+#: src/desktop_editor/window.py:409
+msgid "Desktop File Editor"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:105
+msgid "No file path specified"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:157
+#, python-format
+msgid "Missing required key: %s"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:162
+#, python-format
+msgid "Invalid Type: %s"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:167
+msgid "Application type should have an Exec key"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:172
+msgid "Link type should have a URL key"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:176
+msgid "No icon specified"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:180
+msgid "No categories specified"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:185
+#, python-format
+msgid "Non-standard key: %s"
+msgstr ""
+
+#: src/desktop_editor/window.py:40
+msgid "New"
+msgstr ""
+
+#: src/desktop_editor/window.py:41
+msgid "Open…"
+msgstr ""
+
+#: src/desktop_editor/window.py:42 src/desktop_editor/window.py:50
+msgid "Save"
+msgstr ""
+
+#: src/desktop_editor/window.py:43
+msgid "Save As…"
+msgstr ""
+
+#: src/desktop_editor/window.py:44
+msgid "About"
+msgstr ""
+
+#: src/desktop_editor/window.py:45
+msgid "Quit"
+msgstr ""
+
+#: src/desktop_editor/window.py:65
+msgid "Applications"
+msgstr ""
+
+#: src/desktop_editor/window.py:90
+msgid "Editor"
+msgstr ""
+
+#: src/desktop_editor/window.py:96
+msgid "Translations"
+msgstr ""
+
+#: src/desktop_editor/window.py:102
+msgid "Validation"
+msgstr ""
+
+#: src/desktop_editor/window.py:108
+msgid "Preview"
+msgstr ""
+
+#: src/desktop_editor/window.py:130
+msgid "Basic Properties"
+msgstr ""
+
+#: src/desktop_editor/window.py:132
+msgid "Name"
+msgstr ""
+
+#: src/desktop_editor/window.py:135
+msgid "Generic Name"
+msgstr ""
+
+#: src/desktop_editor/window.py:138
+msgid "Comment"
+msgstr ""
+
+#: src/desktop_editor/window.py:141
+msgid "Exec"
+msgstr ""
+
+#: src/desktop_editor/window.py:144
+msgid "Icon"
+msgstr ""
+
+#: src/desktop_editor/window.py:147
+msgid "Working Directory"
+msgstr ""
+
+#: src/desktop_editor/window.py:153
+msgid "Options"
+msgstr ""
+
+#: src/desktop_editor/window.py:155
+msgid "Type"
+msgstr ""
+
+#: src/desktop_editor/window.py:160
+msgid "Run in Terminal"
+msgstr ""
+
+#: src/desktop_editor/window.py:163
+msgid "No Display"
+msgstr ""
+
+#: src/desktop_editor/window.py:166
+msgid "Startup Notification"
+msgstr ""
+
+#: src/desktop_editor/window.py:172
+msgid "Categories"
+msgstr ""
+
+#: src/desktop_editor/window.py:173
+msgid "Categories (semicolon-separated)"
+msgstr ""
+
+#: src/desktop_editor/window.py:194
+msgid "Additional Fields"
+msgstr ""
+
+#: src/desktop_editor/window.py:195
+msgid "MIME Types"
+msgstr ""
+
+#: src/desktop_editor/window.py:197
+msgid "Keywords"
+msgstr ""
+
+#: src/desktop_editor/window.py:199
+msgid "StartupWMClass"
+msgstr ""
+
+#: src/desktop_editor/window.py:201
+msgid "URL"
+msgstr ""
+
+#: src/desktop_editor/window.py:214
+msgid "Add Translation"
+msgstr ""
+
+#: src/desktop_editor/window.py:216
+msgid "Locale code (e.g. sv, de, fr)"
+msgstr ""
+
+#: src/desktop_editor/window.py:219
+msgid "Add"
+msgstr ""
+
+#: src/desktop_editor/window.py:237
+msgid "Run Validation"
+msgstr ""
+
+#: src/desktop_editor/window.py:269
+msgid "Application Name"
+msgstr ""
+
+#: src/desktop_editor/window.py:275
+msgid "Description"
+msgstr ""
+
+#: src/desktop_editor/window.py:293
+msgid "Refresh Preview"
+msgstr ""
+
+#: src/desktop_editor/window.py:332
+msgid "New File"
+msgstr ""
+
+#: src/desktop_editor/window.py:342
+msgid "Error Opening File"
+msgstr ""
+
+#: src/desktop_editor/window.py:345 src/desktop_editor/window.py:369
+#: src/desktop_editor/window.py:378
+msgid "OK"
+msgstr ""
+
+#: src/desktop_editor/window.py:355 src/desktop_editor/window.py:357
+#: src/desktop_editor/window.py:410
+msgid "File saved"
+msgstr ""
+
+#: src/desktop_editor/window.py:359
+msgid "Error Saving File"
+msgstr ""
+
+#: src/desktop_editor/window.py:382
+msgid "Open .desktop File"
+msgstr ""
+
+#: src/desktop_editor/window.py:384
+msgid "Desktop Files"
+msgstr ""
+
+#: src/desktop_editor/window.py:400
+msgid "Save .desktop File"
+msgstr ""
+
+#: src/desktop_editor/window.py:523
+#, python-format
+msgid "Remove locale %s"
+msgstr ""
+
+#: src/desktop_editor/window.py:587
+msgid "✓ No issues found"
+msgstr ""
+
+#: src/desktop_editor/window.py:604 src/desktop_editor/window.py:608
+msgid "Unnamed"
+msgstr ""
+
+#: src/desktop_editor/window.py:617
+msgid "(unsaved)"
+msgstr ""

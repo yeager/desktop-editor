@@ -1,0 +1,3 @@
+src/desktop_editor/app.py
+src/desktop_editor/desktop_file.py
+src/desktop_editor/window.py
