@@ -35,3 +35,7 @@ desktop-editor
 ## License
 
 GPL-3.0-or-later — Daniel Nylander <daniel@danielnylander.se>
+
+## Translation
+
+Translations are managed via [Transifex](https://app.transifex.com/danielnylander/desktop-editor/). See [po/README.md](po/README.md) for details.
