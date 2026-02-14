@@ -256,3 +256,11 @@ msgstr ""
 #: src/desktop_editor/window.py:617
 msgid "(unsaved)"
 msgstr ""
+
+#: desktop file
+msgid "Visual editor for .desktop files"
+msgstr ""
+
+#: desktop file
+msgid "desktop;editor;freedesktop;"
+msgstr ""

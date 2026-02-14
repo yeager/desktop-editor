@@ -1,0 +1,9 @@
+[Desktop Entry]
+_Name=Desktop File Editor
+_Comment=Visual editor for .desktop files
+Exec=desktop-editor
+Icon=desktop-editor
+Terminal=false
+Type=Application
+Categories=Development;GTK;
+_Keywords=desktop;editor;freedesktop;
