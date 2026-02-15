@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: desktop-editor 0.1.0\n"
+"Project-Id-Version: desktop-editor\n"
 "Report-Msgid-Bugs-To: daniel@danielnylander.se\n"
-"POT-Creation-Date: 2026-02-14 09:48+0100\n"
+"POT-Creation-Date: 2026-02-15 10:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,45 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/desktop_editor/app.py:80 src/desktop_editor/window.py:24
-#: src/desktop_editor/window.py:332 src/desktop_editor/window.py:338
-#: src/desktop_editor/window.py:409
+#: src/desktop_editor/window.py:24 src/desktop_editor/window.py:332
+#: src/desktop_editor/window.py:338 src/desktop_editor/window.py:409
+#: src/desktop_editor/app.py:80
 msgid "Desktop File Editor"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:105
-msgid "No file path specified"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:157
-#, python-format
-msgid "Missing required key: %s"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:162
-#, python-format
-msgid "Invalid Type: %s"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:167
-msgid "Application type should have an Exec key"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:172
-msgid "Link type should have a URL key"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:176
-msgid "No icon specified"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:180
-msgid "No categories specified"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:185
-#, python-format
-msgid "Non-standard key: %s"
 msgstr ""
 
 #: src/desktop_editor/window.py:40
@@ -257,10 +222,41 @@ msgstr ""
 msgid "(unsaved)"
 msgstr ""
 
-#: desktop file
-msgid "Visual editor for .desktop files"
+#: src/desktop_editor/desktop_file.py:105
+msgid "No file path specified"
 msgstr ""
 
-#: desktop file
-msgid "desktop;editor;freedesktop;"
+#: src/desktop_editor/desktop_file.py:157
+#, python-format
+msgid "Missing required key: %s"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:162
+#, python-format
+msgid "Invalid Type: %s"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:167
+msgid "Application type should have an Exec key"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:172
+msgid "Link type should have a URL key"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:176
+msgid "No icon specified"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:180
+msgid "No categories specified"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:185
+#, python-format
+msgid "Non-standard key: %s"
+msgstr ""
+
+#: src/desktop_editor/app.py:89
+msgid "Edit and translate .desktop files with ease"
 msgstr ""
