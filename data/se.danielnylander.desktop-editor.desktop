@@ -2,11 +2,9 @@
 Name=Desktop File Editor
 Name[sv]=Redigera skrivbordsfiler
 Comment=Visual editor for .desktop files
-Comment[sv]=Visuell redigerare för .desktop-filer
 Exec=desktop-editor
 Icon=desktop-editor
 Terminal=false
 Type=Application
 Categories=Development;GTK;
 Keywords=desktop;editor;freedesktop;
-Keywords[sv]=skrivbord;redigerare;freedesktop;
