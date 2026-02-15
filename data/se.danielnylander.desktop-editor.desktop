@@ -1,6 +1,5 @@
 [Desktop Entry]
 Name=Desktop File Editor
-Name[sv]=Redigera skrivbordsfiler
 Comment=Visual editor for .desktop files
 Exec=desktop-editor
 Icon=desktop-editor
