@@ -86,6 +86,7 @@ class DesktopEditorApp(Adw.Application):
             license_type=Gtk.License.GPL_3_0,
             website="https://github.com/yeager/desktop-editor",
             issue_url="https://github.com/yeager/desktop-editor/issues",
+            translate_url="https://app.transifex.com/danielnylander/desktop-editor/",
             comments=_("Edit and translate .desktop files with ease"),
             translator_credits="Daniel Nylander <daniel@danielnylander.se>",
         )
