@@ -55,6 +55,11 @@ class DesktopEditorApp(Adw.Application):
         self.set_accels_for_action("app.save", ["<Control>s"])
         self.set_accels_for_action("app.save-as", ["<Control><Shift>s"])
         self.set_accels_for_action("app.quit", ["<Control>q"])
+        self.set_accels_for_action("app.export", ["<Control>e"])
+
+        export_action = Gio.SimpleAction.new("export", None)
+        export_action.connect("activate", lambda *_: self.props.active_window and self.props.active_window._on_export_clicked())
+        self.add_action(export_action)
         self.set_accels_for_action("app.refresh", ["F5"])
         self.set_accels_for_action("app.shortcuts", ["<Control>slash"])
 

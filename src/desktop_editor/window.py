@@ -1,4 +1,6 @@
 """Main editor window."""
+import csv
+import json
 import os
 
 import gi
@@ -52,6 +54,12 @@ class DesktopEditorWindow(Adw.ApplicationWindow):
                                      tooltip_text="Toggle dark/light theme")
         self._theme_btn.connect("clicked", self._on_theme_toggle)
         header.pack_end(self._theme_btn)
+
+        # Export button
+        export_btn = Gtk.Button(icon_name="document-save-symbolic", tooltip_text=_("Export data"))
+        export_btn.set_icon_name("document-send-symbolic")
+        export_btn.connect("clicked", self._on_export_clicked)
+        header.pack_end(export_btn)
 
         # Save button in header
         save_btn = Gtk.Button(icon_name="document-save-symbolic", tooltip_text=_("Save"))
@@ -640,6 +648,46 @@ class DesktopEditorWindow(Adw.ApplicationWindow):
         else:
             sm.set_color_scheme(Adw.ColorScheme.FORCE_DARK)
             self._theme_btn.set_icon_name("weather-clear-symbolic")
+
+    def _on_export_clicked(self, *_args):
+        dialog = Adw.MessageDialog(transient_for=self,
+                                   heading=_("Export Data"),
+                                   body=_("Choose export format:"))
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("csv", "CSV")
+        dialog.add_response("json", "JSON")
+        dialog.set_response_appearance("csv", Adw.ResponseAppearance.SUGGESTED)
+        dialog.connect("response", self._on_export_format_chosen)
+        dialog.present()
+
+    def _on_export_format_chosen(self, dialog, response):
+        if response not in ("csv", "json"):
+            return
+        self._export_fmt = response
+        fd = Gtk.FileDialog()
+        fd.set_initial_name(f"desktop-export.{response}")
+        fd.save(self, None, self._on_export_save)
+
+    def _on_export_save(self, dialog, result):
+        try:
+            path = dialog.save_finish(result).get_path()
+        except Exception:
+            return
+        if not self.desktop_file:
+            return
+        data = [{"key": k, "value": v} for k, v in self.desktop_file.entries.items()]
+        for (k, loc), v in self.desktop_file.localized.items():
+            data.append({"key": f"{k}[{loc}]", "value": v})
+        if not data:
+            return
+        if self._export_fmt == "csv":
+            with open(path, "w", newline="", encoding="utf-8") as f:
+                w = csv.DictWriter(f, fieldnames=["key", "value"])
+                w.writeheader()
+                w.writerows(data)
+        else:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
 
     def _update_status_bar(self):
         self._status_bar.set_text("Last updated: " + _dt_now.now().strftime("%Y-%m-%d %H:%M"))
