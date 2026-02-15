@@ -10,6 +10,7 @@ from gi.repository import Adw, Gio, Gtk, Pango  # noqa: E402
 
 from desktop_editor.i18n import _
 from desktop_editor.desktop_file import (
+from datetime import datetime as _dt_now
     DesktopFile,
     MAIN_CATEGORIES,
     list_desktop_files,
@@ -45,6 +46,12 @@ class DesktopEditorWindow(Adw.ApplicationWindow):
         menu.append(_("Quit"), "app.quit")
         menu_button = Gtk.MenuButton(icon_name="open-menu-symbolic", menu_model=menu)
         header.pack_end(menu_button)
+
+        # Theme toggle
+        self._theme_btn = Gtk.Button(icon_name="weather-clear-night-symbolic",
+                                     tooltip_text="Toggle dark/light theme")
+        self._theme_btn.connect("clicked", self._on_theme_toggle)
+        header.pack_end(self._theme_btn)
 
         # Save button in header
         save_btn = Gtk.Button(icon_name="document-save-symbolic", tooltip_text=_("Save"))
@@ -115,7 +122,16 @@ class DesktopEditorWindow(Adw.ApplicationWindow):
         self.split_view.set_content(content_box)
 
         # Wrap in toolbarview
-        self.set_content(self.split_view)
+        # Status bar
+        self._status_bar = Gtk.Label(label="", halign=Gtk.Align.START,
+                                     margin_start=12, margin_end=12, margin_bottom=4)
+        self._status_bar.add_css_class("dim-label")
+        self._status_bar.add_css_class("caption")
+
+        _outer_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        _outer_box.append(self.split_view)
+        _outer_box.append(self._status_bar)
+        self.set_content(_outer_box)
 
         # Populate sidebar
         self._populate_file_list()
@@ -414,6 +430,7 @@ class DesktopEditorWindow(Adw.ApplicationWindow):
     # ── UI ↔ Model ──────────────────────────────────────────────────
 
     def _load_into_ui(self):
+        self._update_status_bar()
         """Load desktop file data into UI fields."""
         df = self.desktop_file
         if not df:
@@ -615,3 +632,15 @@ class DesktopEditorWindow(Adw.ApplicationWindow):
             self.preview_icon.set_from_icon_name(icon or "application-x-executable")
 
         self.preview_path.set_label(df.path or _("(unsaved)"))
+    def _on_theme_toggle(self, _btn):
+        sm = Adw.StyleManager.get_default()
+        if sm.get_color_scheme() == Adw.ColorScheme.FORCE_DARK:
+            sm.set_color_scheme(Adw.ColorScheme.FORCE_LIGHT)
+            self._theme_btn.set_icon_name("weather-clear-night-symbolic")
+        else:
+            sm.set_color_scheme(Adw.ColorScheme.FORCE_DARK)
+            self._theme_btn.set_icon_name("weather-clear-symbolic")
+
+    def _update_status_bar(self):
+        self._status_bar.set_text("Last updated: " + _dt_now.now().strftime("%Y-%m-%d %H:%M"))
+
