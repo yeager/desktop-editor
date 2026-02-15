@@ -2,6 +2,8 @@
 
 A GTK4/Adwaita application for visually editing `.desktop` files with preview, validation, and translation management.
 
+![Screenshot](data/screenshots/screenshot-01.png)
+
 ## Features
 
 - Open/create `.desktop` files
@@ -15,9 +17,22 @@ A GTK4/Adwaita application for visually editing `.desktop` files with preview, v
 
 ## Installation
 
-### From .deb package
+### Debian/Ubuntu
 
-Download from [GitHub Releases](https://github.com/yeager/desktop-editor/releases).
+```bash
+# Add repository
+curl -fsSL https://yeager.github.io/debian-repo/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/yeager-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/yeager-archive-keyring.gpg] https://yeager.github.io/debian-repo stable main" | sudo tee /etc/apt/sources.list.d/yeager.list
+sudo apt update
+sudo apt install desktop-editor
+```
+
+### Fedora/RHEL
+
+```bash
+sudo dnf config-manager --add-repo https://yeager.github.io/rpm-repo/yeager.repo
+sudo dnf install desktop-editor
+```
 
 ### From source
 
@@ -25,16 +40,6 @@ Download from [GitHub Releases](https://github.com/yeager/desktop-editor/release
 pip install .
 desktop-editor
 ```
-
-## Requirements
-
-- Python 3.10+
-- GTK 4
-- libadwaita
-
-## License
-
-GPL-3.0-or-later — Daniel Nylander <daniel@danielnylander.se>
 
 ## 🌍 Contributing Translations
 
@@ -56,3 +61,7 @@ Arabic, Czech, Danish, German, Spanish, Finnish, French, Italian, Japanese, Kore
 - Translations are pulled back and included in releases
 
 New language? Open an [issue](https://github.com/yeager/desktop-editor/issues) and we'll add it!
+
+## License
+
+GPL-3.0-or-later — Daniel Nylander <daniel@danielnylander.se>
