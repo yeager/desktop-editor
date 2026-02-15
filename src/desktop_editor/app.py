@@ -80,14 +80,14 @@ class DesktopEditorApp(Adw.Application):
             application_name=_("Desktop File Editor"),
             application_icon="desktop-editor",
             developer_name="Daniel Nylander",
-            version="0.1.0",
+            version="0.2.1",
             developers=["Daniel Nylander <daniel@danielnylander.se>"],
             copyright="© 2026 Daniel Nylander",
             license_type=Gtk.License.GPL_3_0,
             website="https://github.com/yeager/desktop-editor",
             issue_url="https://github.com/yeager/desktop-editor/issues",
-            comments=_("A localization tool by Daniel Nylander"),
-            translator_credits=_("Translate this app: https://app.transifex.com/danielnylander/desktop-editor/"),
+            comments=_("Edit and translate .desktop files with ease"),
+            translator_credits="Daniel Nylander <daniel@danielnylander.se>",
         )
         about.present()
 
