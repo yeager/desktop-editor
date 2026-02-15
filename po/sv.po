@@ -2,23 +2,24 @@
 # Copyright (C) YEAR Daniel Nylander
 # This file is distributed under the same license as the desktop-editor package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Daniel Nylander <po@danielnylander.se>, 2026
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: desktop-editor\n"
 "Report-Msgid-Bugs-To: daniel@danielnylander.se\n"
-"POT-Creation-Date: 2026-02-15 10:08+0100\n"
+"POT-Creation-Date: 2026-02-15 10:57+0100\n"
 "PO-Revision-Date: 2026-02-14 09:50+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
-"Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304760/sv/)\n"
+"Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/"
+"304760/sv/)\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/desktop_editor/window.py:24 src/desktop_editor/window.py:332
@@ -261,6 +262,6 @@ msgstr "Inga kategorier angivna"
 msgid "Non-standard key: %s"
 msgstr "Icke-standardnyckel: %s"
 
-#: src/desktop_editor/app.py:89
+#: src/desktop_editor/app.py:90
 msgid "Edit and translate .desktop files with ease"
 msgstr "Redigera och översätt .desktop-filer med lätthet"
