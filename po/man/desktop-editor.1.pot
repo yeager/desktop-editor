@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-02-15 18:04+0000\n"
+"POT-Creation-Date: 2026-02-16 08:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,60 +98,121 @@ msgstr ""
 #. type: SH
 #: data/man/desktop-editor.1:12
 #, no-wrap
-msgid "FILES"
+msgid "KEYBOARD SHORTCUTS"
 msgstr ""
 
 #. type: TP
 #: data/man/desktop-editor.1:13
 #, no-wrap
-msgid "I<~/.config/desktop-editor/>"
+msgid "B<Ctrl+O>"
 msgstr ""
 
 #. type: Plain text
 #: data/man/desktop-editor.1:16
-msgid "Configuration files."
+msgid "Open a .desktop file"
 msgstr ""
 
 #. type: TP
 #: data/man/desktop-editor.1:16
 #, no-wrap
-msgid "I<~/.cache/desktop-editor/>"
+msgid "B<Ctrl+N>"
 msgstr ""
 
 #. type: Plain text
 #: data/man/desktop-editor.1:19
+msgid "Create a new .desktop file"
+msgstr ""
+
+#. type: TP
+#: data/man/desktop-editor.1:19
+#, no-wrap
+msgid "B<Ctrl+S>"
+msgstr ""
+
+#. type: Plain text
+#: data/man/desktop-editor.1:22
+msgid "Save the current file"
+msgstr ""
+
+#. type: TP
+#: data/man/desktop-editor.1:22
+#, no-wrap
+msgid "B<Ctrl+Shift+S>"
+msgstr ""
+
+#. type: Plain text
+#: data/man/desktop-editor.1:25
+msgid "Save the current file with a new name"
+msgstr ""
+
+#. type: TP
+#: data/man/desktop-editor.1:25
+#, no-wrap
+msgid "B<Ctrl+Q>"
+msgstr ""
+
+#. type: Plain text
+#: data/man/desktop-editor.1:28
+msgid "Quit the application"
+msgstr ""
+
+#. type: SH
+#: data/man/desktop-editor.1:28
+#, no-wrap
+msgid "FILES"
+msgstr ""
+
+#. type: TP
+#: data/man/desktop-editor.1:29
+#, no-wrap
+msgid "I<~/.config/desktop-editor/>"
+msgstr ""
+
+#. type: Plain text
+#: data/man/desktop-editor.1:32
+msgid "Configuration files."
+msgstr ""
+
+#. type: TP
+#: data/man/desktop-editor.1:32
+#, no-wrap
+msgid "I<~/.cache/desktop-editor/>"
+msgstr ""
+
+#. type: Plain text
+#: data/man/desktop-editor.1:35
 msgid "Cached data."
 msgstr ""
 
 #. type: SH
-#: data/man/desktop-editor.1:19
+#: data/man/desktop-editor.1:35
 #, no-wrap
 msgid "BUGS"
 msgstr ""
 
 #. type: Plain text
-#: data/man/desktop-editor.1:21
+#: data/man/desktop-editor.1:37
 msgid "Report bugs at https://github.com/yeager/desktop-editor/issues"
 msgstr ""
 
 #. type: SH
-#: data/man/desktop-editor.1:21
+#: data/man/desktop-editor.1:37
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: data/man/desktop-editor.1:23
+#: data/man/desktop-editor.1:39
 msgid "Daniel Nylander E<lt>daniel@danielnylander.seE<gt>"
 msgstr ""
 
 #. type: SH
-#: data/man/desktop-editor.1:23
+#: data/man/desktop-editor.1:39
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: data/man/desktop-editor.1:24
+#: data/man/desktop-editor.1:40
 msgid "Project homepage: https://github.com/yeager/desktop-editor"
 msgstr ""
