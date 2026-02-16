@@ -84,8 +84,7 @@ class DesktopEditorApp(Adw.Application):
             win.show_save_dialog()
 
     def _on_about(self, action, param):
-        about = Adw.AboutWindow(
-            transient_for=self.props.active_window,
+        about = Adw.AboutDialog(
             application_name=_("Desktop File Editor"),
             application_icon="desktop-editor",
             developer_name="Daniel Nylander",
@@ -99,7 +98,7 @@ class DesktopEditorApp(Adw.Application):
             comments=_("Edit and translate .desktop files with ease"),
             translator_credits="Daniel Nylander <daniel@danielnylander.se>",
         )
-        about.present()
+        about.present(self.props.active_window)
 
     def _on_refresh_action(self, action, param):
         w = self.props.active_window
