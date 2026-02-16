@@ -1,15 +1,20 @@
-# Swedish translations for PACKAGE package
-# Copyright (C) 2026 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2026.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Daniel Nylander <po@danielnylander.se>, 2026
+#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2026-02-15 18:04+0000\n"
-"PO-Revision-Date: 2026-02-15 15:38+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-02-15 14:38+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/danielnylander/"
+"teams/304760/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,53 +25,53 @@ msgstr ""
 #: data/man/desktop-editor.1:1
 #, no-wrap
 msgid "DESKTOP-EDITOR"
-msgstr ""
+msgstr "DESKTOP-EDITOR"
 
 #. type: TH
 #: data/man/desktop-editor.1:1
 #, no-wrap
 msgid "2026-02-15"
-msgstr ""
+msgstr "2026-02-15"
 
 #. type: TH
 #: data/man/desktop-editor.1:1
 #, no-wrap
 msgid "Daniel Nylander"
-msgstr ""
+msgstr "Daniel Nylander"
 
 #. type: TH
 #: data/man/desktop-editor.1:1
 #, no-wrap
 msgid "Desktop Editor Manual"
-msgstr ""
+msgstr "Manual för skrivbordsredigerare"
 
 #. type: SH
 #: data/man/desktop-editor.1:2
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "NAMN"
 
 #. type: Plain text
 #: data/man/desktop-editor.1:4
 msgid "desktop-editor - Visual editor for .desktop files"
-msgstr ""
+msgstr "desktop-editor - Visuell redigerare för .desktop-filer"
 
 #. type: SH
 #: data/man/desktop-editor.1:4
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "SYNOPSIS"
 
 #. type: Plain text
 #: data/man/desktop-editor.1:6
 msgid "B<desktop-editor>"
-msgstr ""
+msgstr "B<desktop-editor>"
 
 #. type: SH
 #: data/man/desktop-editor.1:6
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "BESKRIVNING"
 
 #. type: Plain text
 #: data/man/desktop-editor.1:8
@@ -77,81 +82,86 @@ msgid ""
 "previewing how the app appears in launchers, managing translations per "
 "language, and validating against the freedesktop.org specification."
 msgstr ""
+"B<desktop-editor> är ett GTK4/Adwaita-program för visuell redigering av ."
+"desktop-filer med förhandsgranskning, validering och översättningshantering. "
+"Det stöder redigering av namn, kommentarer, Exec, ikon, kategorier och andra "
+"fält, förhandsgranskning av hur appen visas i startprogram, hantering av "
+"översättningar per språk och validering mot freedesktop.org-specifikationen."
 
 #. type: SH
 #: data/man/desktop-editor.1:8
 #, no-wrap
 msgid "OPTIONS"
-msgstr ""
+msgstr "FLAGGOR"
 
 #. type: TP
 #: data/man/desktop-editor.1:9
 #, no-wrap
 msgid "B<--help>"
-msgstr ""
+msgstr "B<--help>"
 
 #. type: Plain text
 #: data/man/desktop-editor.1:12
 msgid "Show help message and exit."
-msgstr ""
+msgstr "Visa hjälpmeddelande och avsluta."
 
 #. type: SH
 #: data/man/desktop-editor.1:12
 #, no-wrap
 msgid "FILES"
-msgstr ""
+msgstr "FILER"
 
 #. type: TP
 #: data/man/desktop-editor.1:13
 #, no-wrap
 msgid "I<~/.config/desktop-editor/>"
-msgstr ""
+msgstr "I<~/.config/desktop-editor/>"
 
 #. type: Plain text
 #: data/man/desktop-editor.1:16
 msgid "Configuration files."
-msgstr ""
+msgstr "Konfigurationsfiler."
 
 #. type: TP
 #: data/man/desktop-editor.1:16
 #, no-wrap
 msgid "I<~/.cache/desktop-editor/>"
-msgstr ""
+msgstr "I<~/.cache/desktop-editor/>"
 
 #. type: Plain text
 #: data/man/desktop-editor.1:19
 msgid "Cached data."
-msgstr ""
+msgstr "Cachat data."
 
 #. type: SH
 #: data/man/desktop-editor.1:19
 #, no-wrap
 msgid "BUGS"
-msgstr ""
+msgstr "BUGGAR"
 
 #. type: Plain text
 #: data/man/desktop-editor.1:21
 msgid "Report bugs at https://github.com/yeager/desktop-editor/issues"
-msgstr ""
+msgstr "Rapportera buggar på https://github.com/yeager/desktop-editor/issues"
 
 #. type: SH
 #: data/man/desktop-editor.1:21
 #, no-wrap
 msgid "AUTHOR"
-msgstr ""
+msgstr "UPPHOVSPERSON"
 
 #. type: Plain text
 #: data/man/desktop-editor.1:23
 msgid "Daniel Nylander E<lt>daniel@danielnylander.seE<gt>"
-msgstr ""
+msgstr "Daniel Nylander E<lt>daniel@danielnylander.seE<gt>"
 
 #. type: SH
 #: data/man/desktop-editor.1:23
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "SE ÄVEN"
 
 #. type: Plain text
 #: data/man/desktop-editor.1:24
 msgid "Project homepage: https://github.com/yeager/desktop-editor"
-msgstr ""
+msgstr "Projektets webbsida: https://github.com/yeager/desktop-editor"
