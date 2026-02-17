@@ -53,7 +53,7 @@ msgstr "Avsluta"
 
 #: src/desktop_editor/window.py:59
 msgid "Export data"
-msgstr ""
+msgstr "Exportera data"
 
 #: src/desktop_editor/window.py:80
 msgid "Applications"
@@ -232,15 +232,15 @@ msgstr "(osparad)"
 
 #: src/desktop_editor/window.py:654
 msgid "Export Data"
-msgstr ""
+msgstr "Exportera data"
 
 #: src/desktop_editor/window.py:655
 msgid "Choose export format:"
-msgstr ""
+msgstr "Välj exportformat:"
 
 #: src/desktop_editor/window.py:656
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: src/desktop_editor/desktop_file.py:105
 msgid "No file path specified"
