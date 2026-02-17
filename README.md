@@ -1,5 +1,9 @@
 # Desktop File Editor
 
+## Screenshot
+
+![Ubuntu L10n](screenshots/main.png)
+
 A GTK4/Adwaita application for visually editing `.desktop` files with preview, validation, and translation management.
 
 ![Screenshot](data/screenshots/screenshot-01.png)
