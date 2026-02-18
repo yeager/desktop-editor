@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "desktop-editor"
-version = "0.2.7"
+version = "0.2.8"
 description = "Visual editor for .desktop files with preview, validation, and translation management"
 readme = "README.md"
 license = "GPL-3.0-or-later"
