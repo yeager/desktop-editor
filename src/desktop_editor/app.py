@@ -96,7 +96,7 @@ class DesktopEditorApp(Adw.Application):
             issue_url="https://github.com/yeager/desktop-editor/issues",
             translate_url="https://app.transifex.com/danielnylander/desktop-editor/",
             comments=_("Edit and translate .desktop files with ease"),
-            translator_credits="Daniel Nylander <daniel@danielnylander.se>",
+            translator_credits=_("Translate this app: https://www.transifex.com/danielnylander/desktop-editor/"),
         )
         about.present(self.props.active_window)
 
