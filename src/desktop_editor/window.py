@@ -12,7 +12,6 @@ from gi.repository import Adw, Gio, Gtk, Pango  # noqa: E402
 
 from desktop_editor.i18n import _
 from desktop_editor.desktop_file import (
-from datetime import datetime as _dt_now
     DesktopFile,
     MAIN_CATEGORIES,
     list_desktop_files,
