@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-16 17:14+0100\n"
+"POT-Creation-Date: 2026-02-22 06:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -275,4 +275,31 @@ msgstr ""
 
 #: src/desktop_editor/app.py:98
 msgid "Edit and translate .desktop files with ease"
+msgstr ""
+
+#: src/desktop_editor/app.py:99
+msgid ""
+"Translate this app: https://www.transifex.com/danielnylander/desktop-editor/"
+msgstr ""
+
+#: src/desktop_editor/main.py:24
+msgid "Welcome"
+msgstr ""
+
+#: src/desktop_editor/main.py:30
+msgid "Welcome to Desktop File Editor"
+msgstr ""
+
+#: src/desktop_editor/main.py:32
+msgid ""
+"Edit .desktop files with a visual interface.\n"
+"\n"
+"✓ Edit Name, Comment, Exec, Icon fields\n"
+"✓ Preview desktop entries\n"
+"✓ Validate against freedesktop spec\n"
+"✓ Manage translations"
+msgstr ""
+
+#: src/desktop_editor/main.py:35
+msgid "Get Started"
 msgstr ""
