@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-16 17:14+0100\n"
+"POT-Creation-Date: 2026-02-22 06:25+0100\n"
 "PO-Revision-Date: 2026-02-14 09:50+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304760/sv/)\n"
@@ -280,3 +280,37 @@ msgstr "Icke-standardnyckel: %s"
 #: src/desktop_editor/app.py:98
 msgid "Edit and translate .desktop files with ease"
 msgstr "Redigera och översätt .desktop-filer med lätthet"
+
+#: src/desktop_editor/app.py:99
+msgid ""
+"Translate this app: https://www.transifex.com/danielnylander/desktop-editor/"
+msgstr ""
+"Översätt denna app: https://www.transifex.com/danielnylander/desktop-editor/"
+
+#: src/desktop_editor/main.py:24
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: src/desktop_editor/main.py:30
+msgid "Welcome to Desktop File Editor"
+msgstr "Välkommen till Redigerare för skrivbordsfiler"
+
+#: src/desktop_editor/main.py:32
+msgid ""
+"Edit .desktop files with a visual interface.\n"
+"\n"
+"✓ Edit Name, Comment, Exec, Icon fields\n"
+"✓ Preview desktop entries\n"
+"✓ Validate against freedesktop spec\n"
+"✓ Manage translations"
+msgstr ""
+"Redigera .desktop-filer med ett visuellt gränssnitt.\n"
+"\n"
+"✓ Redigera fälten Namn, Kommentar, Exekvera, Ikon\n"
+"✓ Förhandsgranska skrivbordsposter\n"
+"✓ Validera mot freedesktop-specifikationen\n"
+"✓ Hantera översättningar"
+
+#: src/desktop_editor/main.py:35
+msgid "Get Started"
+msgstr "Kom igång"
