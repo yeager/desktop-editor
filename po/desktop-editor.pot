@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the desktop-editor package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: desktop-editor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 06:25+0100\n"
+"POT-Creation-Date: 2026-02-22 17:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,76 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/desktop_editor/window.py:27 src/desktop_editor/window.py:356
-#: src/desktop_editor/window.py:362 src/desktop_editor/window.py:433
-#: src/desktop_editor/app.py:88
+#: src/desktop_editor/app.py:88 src/desktop_editor/window.py:27
+#: src/desktop_editor/window.py:356 src/desktop_editor/window.py:362
+#: src/desktop_editor/window.py:433
 msgid "Desktop File Editor"
+msgstr ""
+
+#: src/desktop_editor/app.py:98
+msgid "Edit and translate .desktop files with ease"
+msgstr ""
+
+#: src/desktop_editor/app.py:99
+msgid ""
+"Translate this app: https://www.transifex.com/danielnylander/desktop-editor/"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:105
+msgid "No file path specified"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:157
+#, python-format
+msgid "Missing required key: %s"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:162
+#, python-format
+msgid "Invalid Type: %s"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:167
+msgid "Application type should have an Exec key"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:172
+msgid "Link type should have a URL key"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:176
+msgid "No icon specified"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:180
+msgid "No categories specified"
+msgstr ""
+
+#: src/desktop_editor/desktop_file.py:185
+#, python-format
+msgid "Non-standard key: %s"
+msgstr ""
+
+#: src/desktop_editor/main.py:24
+msgid "Welcome"
+msgstr ""
+
+#: src/desktop_editor/main.py:30
+msgid "Welcome to Desktop File Editor"
+msgstr ""
+
+#: src/desktop_editor/main.py:32
+msgid ""
+"Edit .desktop files with a visual interface.\n"
+"\n"
+"✓ Edit Name, Comment, Exec, Icon fields\n"
+"✓ Preview desktop entries\n"
+"✓ Validate against freedesktop spec\n"
+"✓ Manage translations"
+msgstr ""
+
+#: src/desktop_editor/main.py:35
+msgid "Get Started"
 msgstr ""
 
 #: src/desktop_editor/window.py:43
@@ -236,70 +302,4 @@ msgstr ""
 
 #: src/desktop_editor/window.py:656
 msgid "Cancel"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:105
-msgid "No file path specified"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:157
-#, python-format
-msgid "Missing required key: %s"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:162
-#, python-format
-msgid "Invalid Type: %s"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:167
-msgid "Application type should have an Exec key"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:172
-msgid "Link type should have a URL key"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:176
-msgid "No icon specified"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:180
-msgid "No categories specified"
-msgstr ""
-
-#: src/desktop_editor/desktop_file.py:185
-#, python-format
-msgid "Non-standard key: %s"
-msgstr ""
-
-#: src/desktop_editor/app.py:98
-msgid "Edit and translate .desktop files with ease"
-msgstr ""
-
-#: src/desktop_editor/app.py:99
-msgid ""
-"Translate this app: https://www.transifex.com/danielnylander/desktop-editor/"
-msgstr ""
-
-#: src/desktop_editor/main.py:24
-msgid "Welcome"
-msgstr ""
-
-#: src/desktop_editor/main.py:30
-msgid "Welcome to Desktop File Editor"
-msgstr ""
-
-#: src/desktop_editor/main.py:32
-msgid ""
-"Edit .desktop files with a visual interface.\n"
-"\n"
-"✓ Edit Name, Comment, Exec, Icon fields\n"
-"✓ Preview desktop entries\n"
-"✓ Validate against freedesktop spec\n"
-"✓ Manage translations"
-msgstr ""
-
-#: src/desktop_editor/main.py:35
-msgid "Get Started"
 msgstr ""
