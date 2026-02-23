@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the desktop-editor package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: desktop-editor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 06:25+0100\n"
+"POT-Creation-Date: 2026-02-22 17:04+0100\n"
 "PO-Revision-Date: 2026-02-14 09:50+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304760/sv/)\n"
@@ -21,11 +21,84 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/desktop_editor/window.py:27 src/desktop_editor/window.py:356
-#: src/desktop_editor/window.py:362 src/desktop_editor/window.py:433
-#: src/desktop_editor/app.py:88
+#: src/desktop_editor/app.py:88 src/desktop_editor/window.py:27
+#: src/desktop_editor/window.py:356 src/desktop_editor/window.py:362
+#: src/desktop_editor/window.py:433
 msgid "Desktop File Editor"
 msgstr "Redigera skrivbordsfiler"
+
+#: src/desktop_editor/app.py:98
+msgid "Edit and translate .desktop files with ease"
+msgstr "Redigera och översätt .desktop-filer med lätthet"
+
+#: src/desktop_editor/app.py:99
+msgid ""
+"Translate this app: https://www.transifex.com/danielnylander/desktop-editor/"
+msgstr ""
+"Översätt denna app: https://www.transifex.com/danielnylander/desktop-editor/"
+
+#: src/desktop_editor/desktop_file.py:105
+msgid "No file path specified"
+msgstr "Ingen filsökväg angiven"
+
+#: src/desktop_editor/desktop_file.py:157
+#, python-format
+msgid "Missing required key: %s"
+msgstr "Saknar nödvändig nyckel: %s"
+
+#: src/desktop_editor/desktop_file.py:162
+#, python-format
+msgid "Invalid Type: %s"
+msgstr "Ogiltig typ: %s"
+
+#: src/desktop_editor/desktop_file.py:167
+msgid "Application type should have an Exec key"
+msgstr "Programtypen bör ha en Exec-nyckel"
+
+#: src/desktop_editor/desktop_file.py:172
+msgid "Link type should have a URL key"
+msgstr "Länktypen ska ha en URL-nyckel"
+
+#: src/desktop_editor/desktop_file.py:176
+msgid "No icon specified"
+msgstr "Ingen ikon angiven"
+
+#: src/desktop_editor/desktop_file.py:180
+msgid "No categories specified"
+msgstr "Inga kategorier angivna"
+
+#: src/desktop_editor/desktop_file.py:185
+#, python-format
+msgid "Non-standard key: %s"
+msgstr "Icke-standardnyckel: %s"
+
+#: src/desktop_editor/main.py:24
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: src/desktop_editor/main.py:30
+msgid "Welcome to Desktop File Editor"
+msgstr "Välkommen till Redigerare för skrivbordsfiler"
+
+#: src/desktop_editor/main.py:32
+msgid ""
+"Edit .desktop files with a visual interface.\n"
+"\n"
+"✓ Edit Name, Comment, Exec, Icon fields\n"
+"✓ Preview desktop entries\n"
+"✓ Validate against freedesktop spec\n"
+"✓ Manage translations"
+msgstr ""
+"Redigera .desktop-filer med ett visuellt gränssnitt.\n"
+"\n"
+"✓ Redigera fälten Namn, Kommentar, Exekvera, Ikon\n"
+"✓ Förhandsgranska skrivbordsposter\n"
+"✓ Validera mot freedesktop-specifikationen\n"
+"✓ Hantera översättningar"
+
+#: src/desktop_editor/main.py:35
+msgid "Get Started"
+msgstr "Kom igång"
 
 #: src/desktop_editor/window.py:43
 msgid "New"
@@ -241,76 +314,3 @@ msgstr "Välj exportformat:"
 #: src/desktop_editor/window.py:656
 msgid "Cancel"
 msgstr "Avbryt"
-
-#: src/desktop_editor/desktop_file.py:105
-msgid "No file path specified"
-msgstr "Ingen filsökväg angiven"
-
-#: src/desktop_editor/desktop_file.py:157
-#, python-format
-msgid "Missing required key: %s"
-msgstr "Saknar nödvändig nyckel: %s"
-
-#: src/desktop_editor/desktop_file.py:162
-#, python-format
-msgid "Invalid Type: %s"
-msgstr "Ogiltig typ: %s"
-
-#: src/desktop_editor/desktop_file.py:167
-msgid "Application type should have an Exec key"
-msgstr "Programtypen bör ha en Exec-nyckel"
-
-#: src/desktop_editor/desktop_file.py:172
-msgid "Link type should have a URL key"
-msgstr "Länktypen ska ha en URL-nyckel"
-
-#: src/desktop_editor/desktop_file.py:176
-msgid "No icon specified"
-msgstr "Ingen ikon angiven"
-
-#: src/desktop_editor/desktop_file.py:180
-msgid "No categories specified"
-msgstr "Inga kategorier angivna"
-
-#: src/desktop_editor/desktop_file.py:185
-#, python-format
-msgid "Non-standard key: %s"
-msgstr "Icke-standardnyckel: %s"
-
-#: src/desktop_editor/app.py:98
-msgid "Edit and translate .desktop files with ease"
-msgstr "Redigera och översätt .desktop-filer med lätthet"
-
-#: src/desktop_editor/app.py:99
-msgid ""
-"Translate this app: https://www.transifex.com/danielnylander/desktop-editor/"
-msgstr ""
-"Översätt denna app: https://www.transifex.com/danielnylander/desktop-editor/"
-
-#: src/desktop_editor/main.py:24
-msgid "Welcome"
-msgstr "Välkommen"
-
-#: src/desktop_editor/main.py:30
-msgid "Welcome to Desktop File Editor"
-msgstr "Välkommen till Redigerare för skrivbordsfiler"
-
-#: src/desktop_editor/main.py:32
-msgid ""
-"Edit .desktop files with a visual interface.\n"
-"\n"
-"✓ Edit Name, Comment, Exec, Icon fields\n"
-"✓ Preview desktop entries\n"
-"✓ Validate against freedesktop spec\n"
-"✓ Manage translations"
-msgstr ""
-"Redigera .desktop-filer med ett visuellt gränssnitt.\n"
-"\n"
-"✓ Redigera fälten Namn, Kommentar, Exekvera, Ikon\n"
-"✓ Förhandsgranska skrivbordsposter\n"
-"✓ Validera mot freedesktop-specifikationen\n"
-"✓ Hantera översättningar"
-
-#: src/desktop_editor/main.py:35
-msgid "Get Started"
-msgstr "Kom igång"
