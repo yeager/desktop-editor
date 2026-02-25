@@ -8,3 +8,4 @@ Terminal=false
 Type=Application
 Categories=Development;GTK;
 Keywords=desktop;editor;freedesktop;
+StartupWMClass=se.danielnylander.desktop-editor
