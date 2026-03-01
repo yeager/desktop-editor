@@ -1,11 +1,27 @@
-Package: desktop-editor
-Version: 0.1.0-1
+Source: desktop-editor
 Section: devel
 Priority: optional
-Architecture: all
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               pybuild-plugin-pyproject
+Standards-Version: 4.7.0
 Homepage: https://github.com/yeager/desktop-editor
+Vcs-Git: https://github.com/yeager/desktop-editor.git
+Vcs-Browser: https://github.com/yeager/desktop-editor
+
+Package: desktop-editor
+Architecture: all
+Depends: ${python3:Depends},
+         ${misc:Depends},
+         python3-gi,
+         gir1.2-gtk-4.0,
+         gir1.2-adw-1
 Description: Visual editor for .desktop files
- A GTK4/Adwaita application for editing .desktop files with
- preview, validation, and translation management.
+ A GTK4/Adwaita application for creating and editing .desktop
+ files with live preview, validation, and translation management.
+ .
+ Features include syntax highlighting, icon preview, and support
+ for all standard desktop entry keys.

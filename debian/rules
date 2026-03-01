@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+export PYBUILD_NAME=desktop-editor
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_install:
+	dh_auto_install
+	# Install desktop file
+	install -D -m 644 data/se.danielnylander.desktop-editor.desktop \
+		debian/desktop-editor/usr/share/applications/se.danielnylander.desktop-editor.desktop
+	# Install icon
+	install -D -m 644 data/icons/desktop-editor.svg \
+		debian/desktop-editor/usr/share/icons/hicolor/scalable/apps/desktop-editor.svg
+	# Install man page
+	install -D -m 644 data/man/desktop-editor.1 \
+		debian/desktop-editor/usr/share/man/man1/desktop-editor.1
